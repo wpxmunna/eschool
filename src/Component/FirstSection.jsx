@@ -1,5 +1,5 @@
 import React from 'react'
-import FristSecBanner from './bannerImg.png'
+import FristSecBanner from './images/bannerImg.png'
 
 function FirstSection() {
   return (
