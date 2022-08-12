@@ -14,11 +14,11 @@ function Testimonial() {
                                 <img src={Avatar} alt="" className=' rounded-full shadow-md'/>
                             </div>
                             <div className=' md:ml-6'>
-                                <p className=' text-gray-500 font-light mb-6'>
+                                <p className=' text-gray-500 font-poppins font-light mb-6'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iure aliquam quidem non sunt. Laborum velit fugit eveniet, voluptas possimus vitae, hic sed, corrupti blanditiis exercitationem consequuntur et tempore!
                                 </p>
-                                <p className=' font-semibold text-xl mb-2 text-gray-800'>David Smith</p>
-                                <p className=' font-semibold text-gray-500 mb-0'>CEO</p>
+                                <p className=' font-semibold font-poppins text-xl mb-2 text-gray-800'>David Smith</p>
+                                <p className=' font-semibold font-poppins text-gray-500 mb-0'>CEO</p>
                             </div>
                         </div>
                     </div>
