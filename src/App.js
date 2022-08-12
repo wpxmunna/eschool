@@ -3,6 +3,7 @@ import CountingCard from './Component/CountingCard';
 import CourseCard from './Component/CourseCard';
 import FirstSection from './Component/FirstSection';
 import Navbar from './Component/Navbar';
+import Testimonial from './Component/Testimonial';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <FirstSection/>
       <CountingCard/>
       <CourseCard/>
+      <Testimonial/>
     </div>
   );
 }
