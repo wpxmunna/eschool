@@ -1,5 +1,6 @@
 import './App.css';
 import CountingCard from './Component/CountingCard';
+import CourseCard from './Component/CourseCard';
 import FirstSection from './Component/FirstSection';
 import Navbar from './Component/Navbar';
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <FirstSection/>
       <CountingCard/>
+      <CourseCard/>
     </div>
   );
 }
