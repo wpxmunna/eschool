@@ -2,6 +2,7 @@ import './App.css';
 import CountingCard from './Component/CountingCard';
 import CourseCard from './Component/CourseCard';
 import FirstSection from './Component/FirstSection';
+import Footer from './Component/Footer';
 import Navbar from './Component/Navbar';
 import Testimonial from './Component/Testimonial';
 
@@ -13,6 +14,7 @@ function App() {
       <CountingCard/>
       <CourseCard/>
       <Testimonial/>
+      <Footer/>
     </div>
   );
 }
