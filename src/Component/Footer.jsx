@@ -6,7 +6,7 @@ function Footer() {
     <footer className=' p-4 bg-[#1F1B24] shadow md:px-6 md:py-8 dark:bg-[#1F1B24]'>
         <div className=' sm:flex sm:items-center sm:justify-between'>
             <div className=' flex items-center mb-4 sm:mb-0 cursor-pointer pl-10'>
-                <img src={Logo} alt="" className=' mr-3 h-8'/>
+                <img src={Logo} alt="" className=' mr-3 h-10'/>
             </div>
             <ul className="flex flex-wrap items-center mb-6 text-sm text-white sm:mb-0 dark:text-white">
             <li>
