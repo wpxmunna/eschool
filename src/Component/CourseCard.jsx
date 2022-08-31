@@ -5,12 +5,12 @@ import CardPic3 from './images/Rectangle 15.png'
 
 function CourseCard() {
   return (
-    <div className=' w-full pt-20 bg-[#E5E5E5]'>
+    <div className=' w-full pt-20 bg-[#FAFAFA]'>
         <h1 className=' font-poppins font-bold text-[36px] text-center text-[#413960]'>Online Courses</h1>
-        <div className=' w-full h-screen flex justify-center items-center bg-[#E5E5E5] py-[100px] p-12'>
+        <div className=' w-full h-screen flex justify-center items-center bg-[#FAFAFA] py-[100px] p-12'>
             <div className=' grid grid-cols-3 gap-3 justify-center items-center px-4'>
                 {/* Course Card 1 */}
-                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-50 bg-white p-4'>
+                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-300 bg-white p-4'>
                     <img src={CardPic1} alt="" />
                     <h1 className=' font-poppins font-medium text-start text-[#413960] text-[24px] pt-4'>Modern Psychology</h1>
                     <p className=' font-poppins font-normal text-[16px] text-[#585859] pt-2 text-start'>Designation</p>
@@ -21,7 +21,7 @@ function CourseCard() {
                     </div>
                 </div>
                 {/* Course Card 2 */}
-                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-50 bg-white p-4'>
+                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-300 bg-white p-4'>
                     <img src={CardPic2} alt="" />
                     <h1 className=' font-poppins font-medium text-start text-[#413960] text-[24px] pt-4'>Modern Psychology</h1>
                     <p className=' font-poppins font-normal text-[16px] text-[#585859] pt-2 text-start'>Designation</p>
@@ -32,7 +32,7 @@ function CourseCard() {
                     </div>
                 </div>
                 {/* Course Card 3 */}
-                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-50 bg-white p-4'>
+                <div className=' w-[370px] h-[480px] shadow-2xl rounded-2xl shadow-slate-300 bg-white p-4'>
                     <img src={CardPic3} alt="" />
                     <h1 className=' font-poppins font-medium text-start text-[#413960] text-[24px] pt-4'>Modern Psychology</h1>
                     <p className=' font-poppins font-normal text-[16px] text-[#585859] pt-2 text-start'>Designation</p>

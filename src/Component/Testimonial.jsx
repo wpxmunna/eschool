@@ -3,7 +3,7 @@ import Avatar from './images/Ellipse.png'
 
 function Testimonial() {
   return (
-    <div className=' w-full h-[400px] bg-[#E5E5E5] pt-5'>
+    <div className=' w-full h-[400px] bg-[#FAFAFA] pt-5'>
         <h1 className=' font-poppins font-bold text-[36px] text-center text-[#413960]'>Testimonials</h1>
         <div className=' p-6 md:p-12 text-center md:text-left shadow-lg rounded-md'>
             <div className=' flex justify-center'>
