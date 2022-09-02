@@ -5,10 +5,10 @@ import NavBtn from './NavBtn'
 function Navbar() {
     let Links = [
         {name:"Home",link:"/"},
-        {name:"Book",link:"/"},
-        {name:"Course",link:"/"},
-        {name:"Others",link:"/"},
-        {name:"Blog",link:"/"},
+        {name:"Book",link:"/book"},
+        {name:"Course",link:"/course"},
+        {name:"Others",link:"/others"},
+        {name:"Blog",link:"/blog"},
     ]
   return (
     <div className=' shadow-md w-full fixed top-0 left-0'>
